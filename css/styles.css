@@ -21,9 +21,9 @@ body {
 
 /* Header Styles */
 .header {
-    background-color: #2a2a2a;
+    background-color: #674248;
     padding: 20px 0;
-    border-bottom: 1px solid #444;
+    border-bottom: 1px solid #e47a6f;
 }
 
 .header .container {
@@ -36,7 +36,7 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
-    color: white;
+    color: #FFEEDB;
     font-size: 24px;
     font-weight: bold;
 }
@@ -67,7 +67,7 @@ body {
 }
 
 .nav a {
-    color: white;
+    color: #FFEEDB;
     text-decoration: none;
     font-size: 18px;
     transition: color 0.3s ease;
@@ -81,12 +81,12 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #007bff;
+    background-color: #e47a6f;
     transition: width 0.3s ease;
 }
 
 .nav a:hover {
-    color: #007bff;
+    color: #e47a6f;
 }
 
 .nav a:hover::after {
@@ -95,7 +95,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background-color: #1a1a1a;
+    background-color: #e47a6f;
     padding: 60px 0;
     min-height: 600px;
     display: flex;
@@ -112,23 +112,24 @@ body {
 
 .image-card {
     flex: 1;
-    height: 350px;
+    height: 450px;
+    width: 4500;
     border-radius: 20px;
     overflow: hidden;
-    border: 2px solid #444;
+    border: 2px solid #674248;
     transition: all 0.3s ease;
     position: relative;
 }
 
 .image-card.main-image {
-    height: 400px;
+    height: 550px;
     transform: scale(1.05);
 }
 
 .image-card:hover {
     transform: translateY(-10px);
-    border-color: #007bff;
-    box-shadow: 0 20px 40px rgba(0, 123, 255, 0.2);
+    border-color: #F9C80E;
+    box-shadow: 0 20px 40px #F9C80E(0, 123, 255, 0.2);
 }
 
 .image-card.main-image:hover {
@@ -148,7 +149,7 @@ body {
 
 /* Services Section */
 .services {
-    background-color: #2a2a2a;
+    background-color: #f29e8c;
     padding: 80px 0;
 }
 
@@ -161,18 +162,18 @@ body {
 }
 
 .service-card {
-    background-color: #1a1a1a;
+    background-color: #e47a6f;
     padding: 40px 30px;
     border-radius: 20px;
     text-align: center;
-    border: 1px solid #444;
+    border: 1px solid #e47a6f;
     transition: all 0.3s ease;
 }
 
 .service-card:hover {
     transform: translateY(-10px);
-    border-color: #007bff;
-    box-shadow: 0 20px 40px rgba(0, 123, 255, 0.1);
+    border-color: #F9C80E;
+    box-shadow: 0 20px 40px F9C80E(0, 123, 255, 0.1);
 }
 
 .service-icon {
@@ -204,7 +205,7 @@ body {
     transform: translate(-50%, -50%);
     width: 40px;
     height: 40px;
-    background-color: white;
+    background-color: #FFEEDB;
     border-radius: 8px;
 }
 
@@ -213,21 +214,21 @@ body {
 }
 
 .service-card h3 {
-    color: white;
+    color: #FFEEDB;
     font-size: 24px;
     margin-bottom: 20px;
     font-weight: bold;
 }
 
 .service-card p {
-    color: #ccc;
+    color: #FFEEDB;
     font-size: 16px;
     line-height: 1.6;
 }
 
 /* About Section */
 .about {
-    background-color: #1a1a1a;
+    background-color: #bf6660;
     padding: 100px 0;
 }
 
@@ -244,13 +245,13 @@ body {
     height: 300px;
     border-radius: 50%;
     overflow: hidden;
-    border: 4px solid #444;
+    border: 4px solid #674248;
     flex-shrink: 0;
     transition: all 0.3s ease;
 }
 
 .profile-circle:hover {
-    border-color: #007bff;
+    border-color: #F9C80E;
     transform: scale(1.05);
 }
 
@@ -265,23 +266,23 @@ body {
 }
 
 .about-text h2 {
-    color: white;
+    color: #FFEEDB;
     font-size: 48px;
     margin-bottom: 30px;
     font-weight: bold;
 }
 
 .about-text p {
-    color: #ccc;
+    color: #FFEEDB;
     font-size: 18px;
     line-height: 1.8;
 }
 
 /* Footer */
 .footer {
-    background-color: #2a2a2a;
+    background-color: #674248;
     padding: 40px 0;
-    border-top: 1px solid #444;
+    border-top: 1px solid #e47a6f;
 }
 
 .footer-content {
@@ -321,7 +322,7 @@ body {
     transform: translate(-50%, -50%);
     width: 20px;
     height: 20px;
-    background-color: white;
+    background-color: #FFEEDB;
     border-radius: 4px;
 }
 
@@ -330,12 +331,12 @@ body {
 }
 
 .social-links span {
-    color: #ccc;
+    color: #FFEEDB;
     font-size: 16px;
 }
 
 .copyright {
-    color: #999;
+    color: #FFEEDB;
     font-size: 14px;
     max-width: 400px;
     text-align: right;
