@@ -1,0 +1,93 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fuente y colores principales */
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #e8dfd5; /* Beige claro - editable */
+  color: #674248; /* Marrón oscuro - editable */
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: #bf6660; /* Rojo ladrillo - editable */
+  color: white;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a.active {
+  border-bottom: 2px solid #fff;
+}
+
+/* Sección Servicios */
+.servicios {
+  width: 80%;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.servicio {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.servicio img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Imágenes circulares */
+  object-fit: cover;
+  border: 3px solid #925656; /* Terracota - editable */
+}
+
+.texto-servicio h2 {
+  font-family: 'Playfair Display', serif;
+  color: #e47a6f; /* Coral intenso - editable */
+  margin-bottom: 10px;
+}
+
+.texto-servicio p {
+  margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #674248; /* Marrón oscuro - editable */
+  color: white;
+  text-align: center;
+}
+
+footer .redes img {
+  width: 30px;
+  margin: 0 10px;
+}
