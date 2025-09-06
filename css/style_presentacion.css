@@ -16,6 +16,8 @@ body {
   background-color: #bf6660; /* rojo ladrillo */
 }
 
+
+
 .header .nav ul {
   list-style: none;
   display: flex;
@@ -34,14 +36,15 @@ body {
   justify-content: center;
   align-items: center;
   padding: 60px 20px;
-  background-color: #f29e8c; /* durazno */
+  background-color: #fff
+   /* durazno */
 }
 
 .hero-img img {
   width: 180px;
   height: 180px;
   border-radius: 50%; /* Imagen circular */
-  object-fit: cover;
+  object-fit: contain;
   margin-right: 40px;
 }
 
@@ -51,12 +54,16 @@ body {
   margin: 0 0 10px;
 }
 
+.logo-rota-horizontal{
+  transform: scaleX(-1);
+}
+
 /* Biografía */
 .biografia {
   display: flex;
   justify-content: space-around;
   padding: 40px;
-  background-color: #fff;
+  background-color: #f29e8c;;
 }
 
 .biografia article {
@@ -74,7 +81,7 @@ body {
   display: flex;
   justify-content: space-around;
   padding: 40px;
-  background-color: #e47a6f; /* coral */
+  background-color: #fff; /* coral */
 }
 
 .premio {
@@ -95,7 +102,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background-color: #925656; /* terracota */
+  background-color: #bf6660; /* terracota */
   color: #fff;
 }
 
@@ -103,4 +110,20 @@ body {
   margin-left: 10px;
   color: #fff;
   text-decoration: none;
+}
+
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .servicio {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
 }
